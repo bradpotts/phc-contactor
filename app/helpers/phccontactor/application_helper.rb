@@ -1,4 +1,4 @@
 module Phccontactor
-  module ApplicationHelper
-  end
+	module ApplicationHelper
+	end
 end
