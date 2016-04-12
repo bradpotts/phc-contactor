@@ -13,10 +13,6 @@ module Phccontactor
 		require 'bootstrap-sass'
 		require 'font-awesome-rails'
 
-		# API Dependencies
-		require 'rabl'
-		require 'oj'
-
 		# Isolate Namespace for PHC Members
 		isolate_namespace Phccontactor
 		
