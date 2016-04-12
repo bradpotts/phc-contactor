@@ -28,8 +28,7 @@ Gem::Specification.new do |spec|
 	spec.add_dependency 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 	spec.add_dependency 'font-awesome-rails', '~> 4.5', '>= 4.5.0.1'
 	spec.add_dependency 'sass-rails', '~> 5.0', '>= 5.0.4'
-	spec.add_dependency 'gravtastic', '~> 3.2', '>= 3.2.6'
-	
+
 	# Configuration
 	spec.add_dependency 'figaro', '~> 1.1', '>= 1.1.1'
 
