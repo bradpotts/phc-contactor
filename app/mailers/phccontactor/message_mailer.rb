@@ -2,7 +2,7 @@ module Phccontactor
 	class MessageMailer < ApplicationMailer
 
 		# Message Address
-		default :to => "info@phcnetworks.net"
+		default :to => ENV["PHC_MTDEVISE_SENDER"]
 
 		# Put Togther Messange
 		def message_me(msg)
