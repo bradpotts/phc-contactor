@@ -29,9 +29,6 @@ Gem::Specification.new do |spec|
 	spec.add_dependency 'font-awesome-rails', '~> 4.5', '>= 4.5.0.1'
 	spec.add_dependency 'sass-rails', '~> 5.0', '>= 5.0.4'
 
-	# Configuration
-	spec.add_dependency 'figaro', '~> 1.1', '>= 1.1.1'
-
 	# Development & Testing Dependencies
 	spec.add_development_dependency 'sqlite3', '~> 1.3', '>= 1.3.11'
 	spec.add_development_dependency 'database_cleaner', '~> 1.5', '>= 1.5.1'

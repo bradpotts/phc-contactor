@@ -1,8 +1,5 @@
 module Phccontactor
 	class Engine < ::Rails::Engine
-		# Main Dependencies
-		require 'figaro'
-		
 		# PHCEngines
 		require 'phcnotifi'
 		require 'phctitler'
@@ -15,7 +12,14 @@ module Phccontactor
 
 		# Isolate Namespace for PHC Members
 		isolate_namespace Phccontactor
-		
+
+		# Auto Mount Plugin
+		initializer "phccontactor", before: :load_config_initializers do |app|
+			Rails.application.routes.append do
+				mount PHCContactor::Engine, at: "/"
+			end
+		end
+
 		# Testing Generator
 		config.generators do |g|
 			g.test_framework :rspec,
