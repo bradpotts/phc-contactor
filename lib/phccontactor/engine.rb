@@ -16,7 +16,7 @@ module Phccontactor
 		# Auto Mount Plugin
 		initializer "phccontactor", before: :load_config_initializers do |app|
 			Rails.application.routes.append do
-				mount PHCContactor::Engine, at: "/"
+				mount Phccontactor::Engine, at: "/"
 			end
 		end
 
