@@ -25,7 +25,6 @@ module Phccontactor
 					end
 				else
 					view_directory :layouts
-					view_directory :shared
 					view_directory :phccontactor
 				end
 			end
