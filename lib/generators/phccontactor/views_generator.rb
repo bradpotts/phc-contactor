@@ -7,7 +7,7 @@ module Phccontactor
 			extend ActiveSupport::Concern
 
 			included do
-				class_option :views, aliases: "-v", type: :array, desc: "Select specific view directories to generate (devise, layouts, phccontactor)"
+				class_option :views, aliases: "-v", type: :array, desc: "Select specific view directories to generate (layouts, phccontactor)"
 
 				public_task :copy_views
 			end
@@ -24,7 +24,6 @@ module Phccontactor
 						view_directory directory.to_sym
 					end
 				else
-					view_directory :devise
 					view_directory :layouts
 					view_directory :shared
 					view_directory :phccontactor
