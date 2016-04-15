@@ -15,7 +15,7 @@ PHCContactor is a customizable contact-us mailer form that uses rails actionmail
   
 #### Step 3 - Generate Contact Form View   
   
-	rails generate mtdevise:views
+	rails generate phccontactor:views
   
 #### Step 3 - Recompile Assets  
   
