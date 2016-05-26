@@ -1,8 +1,9 @@
 module Phccontactor
 	class Engine < ::Rails::Engine
+
 		# PHCEngines
 		require 'phcnotifi'
-		require 'phctitler'
+		require 'phctitleseo'
 
 		# UI Dependencies
 		require 'jquery-rails'
@@ -36,7 +37,7 @@ module Phccontactor
 		config.to_prepare do
 			ApplicationController.helper(ApplicationHelper)
 			Phcnotifi::ApplicationController.helper(ApplicationHelper)
-			Phctitler::ApplicationController.helper(ApplicationHelper)
+			Phctitleseo::ApplicationController.helper(ApplicationHelper)
 		end
 
 	end

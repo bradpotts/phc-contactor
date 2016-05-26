@@ -3,7 +3,7 @@ module Phccontactor
 
 		# Add Helpers
 		helper Phctitler::Engine.helpers
-		helper Phcnotifi::Engine.helpers
+		helper Phctitleseo::Engine.helpers
 
 	end
 end
