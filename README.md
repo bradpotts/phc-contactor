@@ -1,3 +1,6 @@
+[![security](https://hakiri.io/github/PHCNetworks/phc-contactor/master.svg)](https://hakiri.io/github/PHCNetworks/phc-contactor/master)
+[![Gem Version](https://badge.fury.io/rb/phccontactor.svg)](https://badge.fury.io/rb/phccontactor)
+
 ### PHCContactor(1) (Rails Contact Us Mailer Form) Documentation
 PHCContactor is a pre-configured contact form using ActionMailer.
   
