@@ -11,8 +11,8 @@ Gem::Specification.new do |spec|
 	spec.authors     = ["BradPotts"]
 	spec.email       = ["info@phcnetworks.net"]
 	spec.homepage    = "http://www.phcnetwork.net/engine-yard"
-	spec.summary     = "PHCContactor"
-	spec.description = "PHCContactor is a pre-configured contact us form mailer for rails apps."
+	spec.summary     = "PHCContactor Form Configured for ActionMailer"
+	spec.description = "PHCContactor(1) is a pre-configured contact form using ActionMailer."
 	spec.license     = "GPL-3.0"
 
 	spec.files = Dir["{app,config,db,lib}/**/*", "LICENSE", "Rakefile", "README.md"]
@@ -25,6 +25,7 @@ Gem::Specification.new do |spec|
 
 	# UI & Frontend Elements
 	spec.add_dependency 'jquery-rails', '~> 4.1', '>= 4.1.1'
+	spec.add_dependency 'jquery-ui-rails', '~> 5.0', '>= 5.0.5'
 	spec.add_dependency 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 	spec.add_dependency 'font-awesome-rails', '~> 4.6', '>= 4.6.1.0'
 	spec.add_dependency 'sass-rails', '~> 5.0', '>= 5.0.4'
