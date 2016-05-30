@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
 	spec.name        = "phccontactor"
 	spec.version     = Phccontactor::VERSION
 	spec.authors     = ["BradPotts"]
-	spec.email       = ["info@phcnetworks.net"]
-	spec.homepage    = "http://www.phcnetwork.net/engine-yard"
+	spec.email       = ["admin-development@phcnetworks.net"]
+	spec.homepage    = "http://www.phcnetwork.net/"
 	spec.summary     = "PHCContactor Form Configured for ActionMailer"
 	spec.description = "PHCContactor(1) is a pre-configured contact form using ActionMailer."
 	spec.license     = "GPL-3.0"
