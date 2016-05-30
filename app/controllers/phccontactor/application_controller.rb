@@ -25,7 +25,7 @@ module Phccontactor
 		helper_method :new_login_url
 
 		# Add Helpers
-		helper Phctitler::Engine.helpers
+		helper Phcnotifi::Engine.helpers
 		helper Phctitleseo::Engine.helpers
 
 	end
