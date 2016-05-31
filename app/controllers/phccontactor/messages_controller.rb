@@ -3,6 +3,9 @@ require_dependency "phccontactor/application_controller"
 module Phccontactor
 	class MessagesController < ApplicationController
 
+		# Prevent Problems on our Apps
+		before_action :require_user, except: [:new, :create]
+
 		# New Message Form
 		def new
 			@message = Message.new
