@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
 	spec.name        = "phccontactor"
 	spec.version     = Phccontactor::VERSION
 	spec.authors     = ["BradPotts"]
-	spec.email       = ["admin-development@phcnetworks.net"]
-	spec.homepage    = "http://www.phcnetwork.net/"
+	spec.email       = ["developers@phcnetworks.net"]
+	spec.homepage    = "https://www.phcnetworks.net/"
 	spec.summary     = "PHCContactor Form Configured for ActionMailer"
 	spec.description = "PHCContactor(1) is a pre-configured contact form using ActionMailer."
 	spec.license     = "GPL-3.0"
@@ -19,16 +19,16 @@ Gem::Specification.new do |spec|
 
 	# Main Dependencies
 	spec.add_dependency 'rails', '~> 4.2', '>= 4.2.6'
-	spec.add_dependency 'phcnotifi', '~> 2.6', '>= 2.6.5'
+	spec.add_dependency 'phcnotifi', '~> 2.6', '>= 2.6.9'
 	spec.add_dependency 'phctitleseo', '~> 2.0'
-	spec.add_dependency 'authrocket', '~> 1.5'
+	spec.add_dependency 'authrocket', '~> 2.0'
 	spec.add_dependency 'pg', '~> 0.18.4'
 
 	# UI & Frontend Elements
 	spec.add_dependency 'jquery-rails', '~> 4.1', '>= 4.1.1'
 	spec.add_dependency 'jquery-ui-rails', '~> 5.0', '>= 5.0.5'
 	spec.add_dependency 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
-	spec.add_dependency 'font-awesome-rails', '~> 4.6', '>= 4.6.1.0'
+	spec.add_dependency 'font-awesome-rails', '~> 4.6', '>= 4.6.3.0'
 	spec.add_dependency 'sass-rails', '~> 5.0', '>= 5.0.4'
 
 	# Development & Testing Dependencies
@@ -37,7 +37,7 @@ Gem::Specification.new do |spec|
 
 	spec.add_development_dependency 'factory_girl_rails', '~> 4.7'
 	spec.add_development_dependency 'rspec-rails', '~> 3.4', '>= 3.4.2'
-	spec.add_development_dependency 'capybara', '~> 2.7'
+	spec.add_development_dependency 'capybara', '~> 2.7', '>= 2.7.1'
 
 	spec.add_development_dependency 'better_errors', '~> 2.1', '>= 2.1.1'
 	spec.add_development_dependency 'binding_of_caller', '~> 0.7.2'
