@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    phccontactor (1.1.1)
+    phccontactor (1.5.0)
       authrocket (~> 2.0, >= 2.0.1)
       bootstrap-sass (~> 3.3, >= 3.3.6)
       country_select (~> 2.5, >= 2.5.2)
