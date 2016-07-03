@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    phccontactor (2.0.0)
+    phccontactor (2.0.1)
       authrocket (~> 2.0, >= 2.0.1)
       bootstrap-sass (~> 3.3, >= 3.3.6)
       country_select (~> 2.5, >= 2.5.2)
@@ -10,7 +10,7 @@ PATH
       jquery-ui-rails (~> 5.0, >= 5.0.5)
       multi_json (~> 1.12, >= 1.12.1)
       pg (~> 0.18.4)
-      rails (~> 5.0.0)
+      rails (~> 5.0, >= 5.0.0)
       sass-rails (~> 5.0, >= 5.0.5)
 
 GEM
