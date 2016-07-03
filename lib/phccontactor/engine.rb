@@ -2,8 +2,8 @@ module Phccontactor
 	class Engine < ::Rails::Engine
 
 		# PHCEngines
-		require 'phcnotifi'
-		require 'phctitleseo'
+		#require 'phcnotifi'
+		#require 'phctitleseo'
 		
 		# Security For PHC Use
 		require 'authrocket'
