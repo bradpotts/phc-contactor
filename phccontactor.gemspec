@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
 	spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
 	# Main Dependencies
-	spec.add_dependency 'rails', '~> 5.0.0'
+	spec.add_dependency 'rails', '~> 5.0', '>= 5.0.0'
 	spec.add_dependency 'multi_json', '~> 1.12', '>= 1.12.1'
 	spec.add_dependency 'authrocket', '~> 2.0', '>= 2.0.1'
 	spec.add_dependency 'pg', '~> 0.18.4'

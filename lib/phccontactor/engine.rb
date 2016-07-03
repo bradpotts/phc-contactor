@@ -39,8 +39,8 @@ module Phccontactor
 		# Load Helper Files
 		config.to_prepare do
 			ApplicationController.helper(ApplicationHelper)
-			Phcnotifi::ApplicationController.helper(ApplicationHelper)
-			Phctitleseo::ApplicationController.helper(ApplicationHelper)
+			#Phcnotifi::ApplicationController.helper(ApplicationHelper)
+			#Phctitleseo::ApplicationController.helper(ApplicationHelper)
 		end
 
 	end
