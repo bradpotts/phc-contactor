@@ -2,8 +2,8 @@ module Phccontactor
 	class Engine < ::Rails::Engine
 
 		# PHCEngines
-		#require 'phcnotifi'
-		#require 'phctitleseo'
+		require 'phcnotifi'
+		require 'phctitleseo'
 		
 		# Security For PHC Use
 		require 'authrocket'
@@ -39,8 +39,8 @@ module Phccontactor
 		# Load Helper Files
 		config.to_prepare do
 			ApplicationController.helper(ApplicationHelper)
-			#Phcnotifi::ApplicationController.helper(ApplicationHelper)
-			#Phctitleseo::ApplicationController.helper(ApplicationHelper)
+			Phcnotifi::ApplicationController.helper(ApplicationHelper)
+			Phctitleseo::ApplicationController.helper(ApplicationHelper)
 		end
 
 	end

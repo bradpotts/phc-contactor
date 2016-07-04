@@ -19,8 +19,9 @@ Gem::Specification.new do |spec|
 
 	# Main Dependencies
 	spec.add_dependency 'rails', '~> 5.0', '>= 5.0.0'
+	spec.add_dependency 'phctitleseo', '~> 3.0', '>= 3.0.1'
+	spec.add_dependency 'phcnotifi', '~> 3.0', '>= 3.0.1'
 	spec.add_dependency 'multi_json', '~> 1.12', '>= 1.12.1'
-	spec.add_dependency 'authrocket', '~> 2.0', '>= 2.0.1'
 	spec.add_dependency 'pg', '~> 0.18.4'
 
 	# UI & Frontend Elements
