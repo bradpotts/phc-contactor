@@ -3,15 +3,15 @@
 [![Issue Count](https://codeclimate.com/github/PHCNetworks/phc-contactor/badges/issue_count.svg)](https://codeclimate.com/github/PHCNetworks/phc-contactor)
 [![Gem Version](https://badge.fury.io/rb/phccontactor.svg)](https://badge.fury.io/rb/phccontactor)
 
-### PHCContactor(1) (Rails Contact Us Mailer Form) Documentation
-PHCContactor is a pre-configured contact form using ActionMailer.
+### PHCContactor(2) (Rails Contact Us Mailer Form) Documentation
+PHCContactor(2) is a pre-configured contact form using ActionMailer.
   
 * Customizable form using standard Bootstrap or HTML code.  
 * Compatable with any mailer service using ActionMailer.  
   
 #### Step 1 - Add PHCContactor Engine to your gemfile  
   
-	gem 'phccontactor', '~> 2.0'
+	gem 'phccontactor', '~> 2.0', '>= 2.0.2'
 	bundle install
   
 #### Step 2 - Configure ActionMailer 
