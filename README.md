@@ -6,8 +6,8 @@
 ### PHCContactor(2) (Rails Contact Us Mailer Form) Documentation
 PHCContactor(2) is a pre-configured contact form using ActionMailer.
   
-* Customizable form using standard Bootstrap or HTML code.  
-* Compatible with any mailer service using ActionMailer.  
+- Customizable form using standard Bootstrap or HTML code.  
+- Compatible with any mailer service using ActionMailer.  
   
 #### Step 1 - Add PHCContactor Engine to your gemfile  
   
@@ -21,8 +21,8 @@ PHCContactor(2) is a pre-configured contact form using ActionMailer.
 #### Step 3 - Recompile Assets  
 PHCContactor included Views & UI requires Bootstrap and FontAwesome.
   
-	rake assets:clobber
-	rake assets:precompile
+	rails assets:clobber
+	rails assets:precompile
 
 #### Step 4 - Generate Contact Form View (Customization)  
   

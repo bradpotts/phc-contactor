@@ -4,9 +4,6 @@ module Phccontactor
 		# PHCEngines
 		require 'phcnotifi'
 		require 'phctitleseo'
-		
-		# Security For PHC Use
-		require 'authrocket'
 
 		# UI Dependencies
 		require 'jquery-rails'
