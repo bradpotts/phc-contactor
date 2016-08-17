@@ -32,3 +32,7 @@ PHCContactor included Views & UI requires Bootstrap and FontAwesome.
   
 	ENV["PHC_CONTACTOR_SENDER"]  
   
+
+#### Additional Information
+
+- [Critical Security Updates](https://github.com/PHCNetworks/phc-contactor/wiki/Critical-Security-Updates)
