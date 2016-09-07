@@ -1,8 +1,8 @@
 [![security](https://hakiri.io/github/PHCNetworks/phc-contactor/master.svg)](https://hakiri.io/github/PHCNetworks/phc-contactor/master)
 [![Code Climate](https://codeclimate.com/github/PHCNetworks/phc-contactor/badges/gpa.svg)](https://codeclimate.com/github/PHCNetworks/phc-contactor)
-[![Issue Count](https://codeclimate.com/github/PHCNetworks/phc-contactor/badges/issue_count.svg)](https://codeclimate.com/github/PHCNetworks/phc-contactor)
-[![Gem Version](https://badge.fury.io/rb/phccontactor.svg)](https://badge.fury.io/rb/phccontactor)
-
+[![Dependency Status](https://gemnasium.com/badges/github.com/PHCNetworks/phc-contactor.svg)](https://gemnasium.com/github.com/PHCNetworks/phc-contactor)
+[![Gem Version](https://badge.fury.io/rb/phccontactor.svg)](https://badge.fury.io/rb/phccontactor)  
+  
 ### PHCContactor(2) (Rails Contact Us Mailer Form) Documentation
 PHCContactor(2) is a pre-configured contact form using ActionMailer.
   
@@ -11,7 +11,7 @@ PHCContactor(2) is a pre-configured contact form using ActionMailer.
   
 #### Step 1 - Add PHCContactor Engine to your gemfile  
   
-	gem 'phccontactor', '~> 2.1', '>= 2.1.2'
+	gem 'phccontactor', '~> 2.1', '>= 2.1.3'
 	bundle install
   
 #### Step 2 - Configure ActionMailer 
