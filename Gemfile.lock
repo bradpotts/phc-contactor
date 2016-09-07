@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    phccontactor (2.1.3)
+    phccontactor (2.1.4)
       bootstrap-sass (~> 3.3, >= 3.3.7)
       country_select (~> 2.5, >= 2.5.2)
       font-awesome-rails (~> 4.6, >= 4.6.3.1)
@@ -10,8 +10,8 @@ PATH
       jquery-ui-rails (~> 5.0, >= 5.0.5)
       paper_trail (~> 5.2, >= 5.2.1)
       pg (~> 0.18.4)
-      phcnotifi (~> 3.3, >= 3.3.2)
-      phctitleseo (~> 3.3, >= 3.3.2)
+      phcnotifi (~> 3.3, >= 3.3.3)
+      phctitleseo (~> 3.3, >= 3.3.3)
       rails (~> 5.0, >= 5.0.0.1)
       sass-rails (~> 5.0, >= 5.0.6)
 
@@ -127,7 +127,7 @@ GEM
       activesupport (>= 3.0, < 6.0)
       request_store (~> 1.1)
     pg (0.18.4)
-    phcnotifi (3.3.2)
+    phcnotifi (3.3.3)
       bootstrap-sass (~> 3.3, >= 3.3.7)
       country_select (~> 2.5, >= 2.5.2)
       font-awesome-rails (~> 4.6, >= 4.6.3.1)
@@ -137,7 +137,7 @@ GEM
       pg (~> 0.18.4)
       rails (~> 5.0, >= 5.0.0.1)
       sass-rails (~> 5.0, >= 5.0.6)
-    phctitleseo (3.3.2)
+    phctitleseo (3.3.3)
       bootstrap-sass (~> 3.3, >= 3.3.7)
       country_select (~> 2.5, >= 2.5.2)
       font-awesome-rails (~> 4.6, >= 4.6.3.1)
