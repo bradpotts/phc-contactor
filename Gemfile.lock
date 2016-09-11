@@ -1,14 +1,14 @@
 PATH
   remote: .
   specs:
-    phccontactor (2.1.4)
+    phccontactor (2.1.5)
       bootstrap-sass (~> 3.3, >= 3.3.7)
       country_select (~> 2.5, >= 2.5.2)
       font-awesome-rails (~> 4.6, >= 4.6.3.1)
       gravtastic (~> 3.2, >= 3.2.6)
       jquery-rails (~> 4.2, >= 4.2.1)
       jquery-ui-rails (~> 5.0, >= 5.0.5)
-      paper_trail (~> 5.2, >= 5.2.1)
+      paper_trail (~> 5.2, >= 5.2.2)
       pg (~> 0.18.4)
       phcnotifi (~> 3.3, >= 3.3.3)
       phctitleseo (~> 3.3, >= 3.3.3)
@@ -122,9 +122,8 @@ GEM
     nokogiri (1.6.8)
       mini_portile2 (~> 2.1.0)
       pkg-config (~> 1.1.7)
-    paper_trail (5.2.1)
+    paper_trail (5.2.2)
       activerecord (>= 3.0, < 6.0)
-      activesupport (>= 3.0, < 6.0)
       request_store (~> 1.1)
     pg (0.18.4)
     phcnotifi (3.3.3)
