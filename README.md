@@ -11,7 +11,7 @@ PHCContactor(2) is a pre-configured contact form using ActionMailer.
   
 #### Step 1 - Add PHCContactor Engine to your gemfile  
   
-	gem 'phccontactor', '~> 2.1', '>= 2.1.6'
+	gem 'phccontactor', '~> 2.1', '>= 2.1.7'
 	bundle install
   
 #### Step 2 - Configure ActionMailer 
