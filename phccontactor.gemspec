@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
 	# Main Dependencies
 	spec.add_dependency 'rails', '~> 5.0', '>= 5.0.0.1'
 	spec.add_dependency 'pg', '~> 0.19.0'
-	spec.add_dependency 'paper_trail', '~> 5.2', '>= 5.2.2'
+	spec.add_dependency 'paper_trail', '~> 5.2', '>= 5.2.3'
 
 	# PHC Engines & Themes
 	spec.add_dependency 'phcadmin3', '~> 0.5.3'

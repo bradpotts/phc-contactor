@@ -1,14 +1,14 @@
 PATH
   remote: .
   specs:
-    phccontactor (2.1.9)
+    phccontactor (2.1.10)
       bootstrap-sass (~> 3.3, >= 3.3.7)
       country_select (~> 3.0)
       font-awesome-rails (~> 4.7)
       gravtastic (~> 3.2, >= 3.2.6)
       jquery-rails (~> 4.2, >= 4.2.1)
       jquery-ui-rails (~> 6.0)
-      paper_trail (~> 5.2, >= 5.2.2)
+      paper_trail (~> 5.2, >= 5.2.3)
       pg (~> 0.19.0)
       phcadmin3 (~> 0.5.3)
       phcnotifi (~> 3.3, >= 3.3.8)
