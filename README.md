@@ -4,7 +4,7 @@
 [![Gem Version](https://badge.fury.io/rb/phccontactor.svg)](https://badge.fury.io/rb/phccontactor)  
   
 ### PHCContactor(2) (Rails Contact Us Mailer Form) Documentation
-PHCContactor(2) is a pre-configured contact form using ActionMailer.
+PHCContactor(2) rails engine contact form using ActionMailer.
   
 - Customizable form using standard Bootstrap or HTML code.  
 - Compatible with any mailer service using ActionMailer.  
