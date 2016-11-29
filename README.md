@@ -9,9 +9,9 @@ PHCContactor(2) rails engine contact form using ActionMailer.
 - Customizable form using standard Bootstrap or HTML code.  
 - Compatible with any mailer service using ActionMailer.  
   
-#### Step 1 - Add PHCContactor Engine to your gemfile  
+#### Step 1 - Add PHCContactor to your gemfile  
   
-	gem 'phccontactor', '~> 2.1', '>= 2.1.8'
+	gem 'phccontactor', '~> 2.2'
 	bundle install
   
 #### Step 2 - Configure ActionMailer 
@@ -19,12 +19,13 @@ PHCContactor(2) rails engine contact form using ActionMailer.
 - Configure ActionMailer in your Production.rb with any service.  
   
 #### Step 3 - Recompile Assets  
-PHCContactor included Views & UI requires Bootstrap and FontAwesome.
+To properly function re-compile your application's assets to copy over requried files.  
   
 	rails assets:clobber
 	rails assets:precompile
 
 #### Step 4 - Generate Contact Form View (Customization)  
+PHCContactor form and layout view can be overwritten by copy files to your application.  
   
 	rails generate phccontactor:views
   
@@ -32,7 +33,6 @@ PHCContactor included Views & UI requires Bootstrap and FontAwesome.
   
 	ENV["PHC_CONTACTOR_SENDER"]  
   
-
 #### Additional Information
 
 - [Critical Security Updates](https://github.com/PHCNetworks/phc-contactor/wiki/Critical-Security-Updates)
