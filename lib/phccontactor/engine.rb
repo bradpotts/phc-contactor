@@ -1,25 +1,33 @@
 module Phccontactor
 	class Engine < ::Rails::Engine
 
-		# PHCEngines
+		# Main Dependencies
+		require 'rails'
+		require 'pg'
+		require 'paper_trail'
+
+		# PHCEngines & Theme Dependencies
 		require 'phcnotifi'
 		require 'phctitleseo'
+		require 'phcadmin3'
 
-		# UI Dependencies
+		# UI & Frontend Dependencies
 		require 'jquery-rails'
+		require 'jquery-ui-rails'
 		require 'sass-rails'
 		require 'bootstrap-sass'
 		require 'font-awesome-rails'
+		require 'country_select'
+		require 'gravtastic'
+		
+		# API Dependencies
+		require 'rabl'
+		require 'oj'
+		require 'multi_json'
+		require 'responders'
 
-		# Isolate Namespace for PHC Members
+		# Isolate Namespace
 		isolate_namespace Phccontactor
-
-		# Auto Mount Plugin
-		initializer "phccontactor", before: :load_config_initializers do |app|
-			Rails.application.routes.append do
-				mount Phccontactor::Engine, at: "/"
-			end
-		end
 
 		# Testing Generator
 		config.generators do |g|
@@ -32,10 +40,9 @@ module Phccontactor
 			request_specs: false
 			g.fixture_replacement :factory_girl, dir: "spec/factories"
 		end
-		
-		# Load Helper Files
+
+		# Load Requried Helper Files
 		config.to_prepare do
-			ApplicationController.helper(ApplicationHelper)
 			Phcnotifi::ApplicationController.helper(ApplicationHelper)
 			Phctitleseo::ApplicationController.helper(ApplicationHelper)
 		end
