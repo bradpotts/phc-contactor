@@ -11,7 +11,7 @@ PHCContactor(2) rails engine contact form using ActionMailer.
   
 #### Step 1 - Add PHCContactor to your gemfile and run command  
   
-	gem 'phccontactor', '~> 2.4'
+	gem 'phccontactor', '~> 2.4', '>= 2.4.5'
 	bundle install
   
 #### Step 2 - Configure ActionMailer 
