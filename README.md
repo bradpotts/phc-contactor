@@ -2,7 +2,7 @@
 [![Code Climate](https://codeclimate.com/github/PHCNetworks/phc-contactor/badges/gpa.svg)](https://codeclimate.com/github/PHCNetworks/phc-contactor)
 [![Dependency Status](https://gemnasium.com/badges/github.com/PHCNetworks/phc-contactor.svg)](https://gemnasium.com/github.com/PHCNetworks/phc-contactor)
 [![Gem Version](https://badge.fury.io/rb/phccontactor.svg)](https://badge.fury.io/rb/phccontactor)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/PHCNetworks/phc-contactor/blob/master/MIT-LICENSE)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/PHCNetworks/phc-contactor/blob/master/MIT-LICENSE)  
   
 ### PHCContactor(2) (Rails Contact Us Mailer Form) Documentation
 PHCContactor(2) rails engine contact form using ActionMailer.
