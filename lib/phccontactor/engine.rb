@@ -5,12 +5,12 @@ module Phccontactor
     require 'rails'
     require 'pg'
     require 'paper_trail'
-    
+
     # PHCEngines & Theme Dependencies
     require 'phcnotifi'
     require 'phctitleseo'
     require 'phcadmin3'
-    
+
     # UI & Frontend Dependencies
     require 'jquery-rails'
     require 'jquery-ui-rails'
@@ -19,16 +19,16 @@ module Phccontactor
     require 'font-awesome-rails'
     require 'country_select'
     require 'gravtastic'
-    
+
     # API Dependencies
     require 'rabl'
     require 'oj'
     require 'multi_json'
     require 'responders'
-    
+
     # Isolate Namespace
     isolate_namespace Phccontactor
-    
+
     # Testing Generator
     config.generators do |g|
       g.test_framework :rspec,
@@ -40,7 +40,7 @@ module Phccontactor
         request_specs: false
       g.fixture_replacement :factory_girl, dir: "spec/factories"
     end
-    
+
     # Load Requried Helper Files
     config.to_prepare do
       Phcnotifi::ApplicationController.helper(ApplicationHelper)
