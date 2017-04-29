@@ -11,8 +11,8 @@ Gem::Specification.new do |spec|
   spec.authors     = ["BradPotts"]
   spec.email       = ["info@phcnetworks.net"]
   spec.homepage    = "https://phcnetworks.net/"
-  spec.summary     = "PHCContactor(3) - Rails Contact Form Engine"
-  spec.description = "PHCContactor(3) rails engine contact form using ActionMailer."
+  spec.summary     = "PHCContactor(4Beta) - Rails Contact Form Engine"
+  spec.description = "PHCContactor(4Beta) rails engine contact form using ActionMailer."
   spec.license     = "MIT"
 
   #Load Engine Files

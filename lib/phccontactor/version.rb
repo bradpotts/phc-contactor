@@ -1,3 +1,3 @@
 module Phccontactor
-  VERSION = "3.1.3"
+  VERSION = "4.0.0b"
 end
