@@ -2,12 +2,12 @@ require_dependency "phccontactor/application_controller"
 
 module Phccontactor
   class MessagesController < ApplicationController
-  
+
     # New Message Form
     def new
       @message = Message.new
     end
-    
+
     # Create Message from Info Entered
     def create
       @message = Message.new(message_params)
@@ -18,12 +18,12 @@ module Phccontactor
           render :new
       end
     end
-    
+
     private
-    
+
     def message_params
       params.require(:message).permit(:name, :email, :subject, :content)
     end
-  
+
   end
 end
