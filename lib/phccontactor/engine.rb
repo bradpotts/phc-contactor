@@ -5,13 +5,11 @@ module Phccontactor
     require 'paper_trail'
 
     # UI & Frontend Dependencies
+    require 'country_select'
+    require 'gravtastic'
     require 'jquery-rails'
     require 'jquery-ui-rails'
     require 'sass-rails'
-    require 'bootstrap-sass'
-    require 'font-awesome-rails'
-    require 'country_select'
-    require 'gravtastic'
     require 'webpacker'
 
     # WYSIWYG Editor Dependencies
@@ -55,7 +53,7 @@ module Phccontactor
         routing_specs: false,
         controller_specs: true,
         request_specs: false
-      g.fixture_replacement :factory_girl, dir: "spec/factories"
+      g.fixture_replacement :factory_bot, dir: "spec/factories"
     end
 
     # Load Requried Helper Files
