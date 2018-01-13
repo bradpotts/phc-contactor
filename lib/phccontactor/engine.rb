@@ -4,6 +4,16 @@ module Phccontactor
     # Main Dependencies
     require 'paper_trail'
 
+		# PHCEngines & Theme Dependencies
+    require 'phcnotifi'
+    require 'phctitleseo'
+
+    require 'phctheme1'
+    require 'phctheme2'
+    require 'phcadmin1'
+    require 'phcadmin2'
+    require 'phcadmin3'
+
     # UI & Frontend Dependencies
     require 'country_select'
     require 'gravtastic'
@@ -12,34 +22,21 @@ module Phccontactor
     require 'sass-rails'
     require 'webpacker'
 
-    # WYSIWYG Editor Dependencies
-    require 'tinymce-rails'
-
     # API Dependencies
     require 'rabl'
     require 'oj'
     require 'multi_json'
     require 'responders'
 
-    # Upload & Media Dependencies
-    require 'carrierwave'
-    require 'cloudinary'
-
     # Clean URLS
     require 'friendly_id'
 
-    # PHCEngine Dependencies
-    require 'phcnotifi'
-    require 'phctitleseo'
+    # WYSIWYG Editor Dependencies
+    require 'tinymce-rails'
 
-    # PHCTheme Dependencies
-    require 'phctheme1'
-    require 'phctheme2'
-
-    # PHCAdmin Dependencies
-    require 'phcadmin1'
-    require 'phcadmin2'
-    require 'phcadmin3'
+    # Upload & Media Dependencies
+    require 'carrierwave'
+    require 'cloudinary'
 
     # Isolate Namespace
     isolate_namespace Phccontactor
@@ -60,6 +57,11 @@ module Phccontactor
     config.to_prepare do
       Phcnotifi::ApplicationController.helper(ApplicationHelper)
       Phctitleseo::ApplicationController.helper(ApplicationHelper)
+    end
+
+    # Load Language Files
+    config.before_initialize do
+      config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '**', '*.{rb,yml}')]
     end
 
   end
