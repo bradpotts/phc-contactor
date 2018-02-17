@@ -11,7 +11,7 @@ PHCContactor Rails 5.1 Engine contact form using ActionMailer.
 
 #### Step 1 - Add PHCContactor to your gemfile and run install command  
 
-	gem 'phccontactor', '~> 16.0'
+	gem 'phccontactor', '~> 17.0'
 	bundle install
 
 #### Step 2 - Configure ActionMailer
@@ -19,7 +19,7 @@ PHCContactor Rails 5.1 Engine contact form using ActionMailer.
 - Configure ActionMailer in your Production.rb with any service.  
 
 #### Step 3 - Recompile Assets  
-To properly function re-compile your application's assets to copy over requried files.  
+To properly function re-compile your application's assets to copy over required files.  
 
 	rails assets:clobber
 	rails assets:precompile
