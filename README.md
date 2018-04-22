@@ -4,14 +4,14 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/PHCNetworks/phc-contactor/blob/master/MIT-LICENSE)  
 
 ### PHCContactor (Rails Contact Us Mailer Form) Documentation
-PHCContactor Rails 5.1 Engine contact form using ActionMailer.
+PHCContactor Rails Engine contact form using ActionMailer.
 
 * Customizable form using standard Bootstrap or HTML code.  
 * Compatible with any mailer service using ActionMailer.  
 
 #### Step 1 - Add PHCContactor to your gemfile and run install command  
 
-	gem 'phccontactor', '~> 19.0'
+	gem 'phccontactor', '~> 20.0'
 	bundle install
 
 #### Step 2 - Configure ActionMailer
