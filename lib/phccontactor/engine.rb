@@ -2,6 +2,7 @@ module Phccontactor
   class Engine < ::Rails::Engine
 
     # Main Dependencies
+    require 'devise'
     require 'paper_trail'
 
     # PHCEngines & Theme Dependencies
@@ -20,10 +21,6 @@ module Phccontactor
     # UI & Frontend Dependencies
     require 'country_select'
     require 'gravtastic'
-    require 'jquery-rails'
-    require 'jquery-ui-rails'
-    require 'sass-rails'
-    require 'webpacker'
 
     # API Dependencies
     require 'httparty'
@@ -34,9 +31,6 @@ module Phccontactor
 
     # Clean URLS
     require 'friendly_id'
-
-    # WYSIWYG Editor Dependencies
-    require 'tinymce-rails'
 
     # Upload & Media Dependencies
     require 'carrierwave'
