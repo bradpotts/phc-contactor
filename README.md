@@ -1,38 +1,28 @@
-[![security](https://hakiri.io/github/PHCNetworks/phc-contactor/master.svg)](https://hakiri.io/github/PHCNetworks/phc-contactor/master)
-[![Code Climate](https://codeclimate.com/github/PHCNetworks/phc-contactor/badges/gpa.svg)](https://codeclimate.com/github/PHCNetworks/phc-contactor)
-[![Gem Version](https://badge.fury.io/rb/phccontactor.svg)](https://badge.fury.io/rb/phccontactor)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/PHCNetworks/phc-contactor/blob/master/MIT-LICENSE)  
+# Phccontactor
+Short description and motivation.
 
-### PHCContactor (Rails Contact Us Mailer Form) Documentation
-PHCContactor Rails Engine contact form using ActionMailer.
+## Usage
+How to use my plugin.
 
-* Customizable form using standard Bootstrap or HTML code.  
-* Compatible with any mailer service using ActionMailer.  
+## Installation
+Add this line to your application's Gemfile:
 
-#### Step 1 - Add PHCContactor to your gemfile and run install command  
+```ruby
+gem 'phccontactor'
+```
 
-	gem 'phccontactor', '~> 21.0'
-	bundle install
+And then execute:
+```bash
+$ bundle
+```
 
-#### Step 2 - Configure ActionMailer
+Or install it yourself as:
+```bash
+$ gem install phccontactor
+```
 
-- Configure ActionMailer in your Production.rb with any service.  
+## Contributing
+Contribution directions go here.
 
-#### Step 3 - Recompile Assets  
-To properly function re-compile your application's assets to copy over required files.  
-
-	rails assets:clobber
-	rails assets:precompile
-
-#### Step 4 - Generate Contact Form View (Customization)  
-PHCContactor form and layout view can be overwritten by copy files to your application.  
-
-	rails generate phccontactor:views
-
-#### Step 5 - Setup ENV Variables  
-
-	ENV["PHC_CONTACTOR_SENDER"]  
-
-#### Additional Information
-
-- [Critical Security Updates](https://github.com/PHCNetworks/phc-contactor/wiki/Critical-Security-Updates)
+## License
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
