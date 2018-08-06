@@ -30,16 +30,6 @@ module Phccontactor
     require 'paper_trail'
     require 'pg'
 
-    # Security Dependencies
-    require 'devise'
-    require 'simple_token_authentication'
-
-    # Omniauth Authtication
-    require 'omniauth-facebook'
-    require 'omniauth-github'
-    require 'omniauth-instagram'
-    require 'omniauth-twitter'
-
     # Isolate Namespace
     isolate_namespace Phccontactor
 

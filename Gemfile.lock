@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    phccontactor (25.0.0)
+    phccontactor (26.0.0)
       aws-sdk-s3 (~> 1.17)
       country_select (~> 3.1)
       friendly_id (~> 5.2)
