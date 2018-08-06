@@ -55,7 +55,7 @@ Gem::Specification.new do |phc_gem_spec|
   phc_gem_spec.add_dependency "pg", "~> 0.21.0"
 
   # Security Dependencies
-  phc_gem_spec.add_dependency 'phcaccounts', '~> 14.0'
+  phc_gem_spec.add_dependency "phcaccounts", "~> 14.0"
 
   # Development Dependencies
   phc_gem_spec.add_development_dependency "byebug", "~> 10.0"
