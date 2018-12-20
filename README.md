@@ -1,8 +1,3 @@
-[![security](https://hakiri.io/github/PHCNetworks/phc-contactor/master.svg)](https://hakiri.io/github/PHCNetworks/phc-contactor/master)
-[![Code Climate](https://codeclimate.com/github/PHCNetworks/phc-contactor/badges/gpa.svg)](https://codeclimate.com/github/PHCNetworks/phc-contactor)
-[![Gem Version](https://badge.fury.io/rb/phccontactor.svg)](https://badge.fury.io/rb/phccontactor)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/PHCNetworks/phc-contactor/blob/master/MIT-LICENSE)  
-
 ### PHCContactor (Rails Contact Us Mailer Form) Documentation
 PHCContactor Rails Engine contact form using ActionMailer.
 
@@ -11,7 +6,7 @@ PHCContactor Rails Engine contact form using ActionMailer.
 
 #### Step 1 - Add PHCContactor to your gemfile and run install command  
 
-	gem 'phccontactor', '~> 34.0'
+	gem 'phccontactor'
 	bundle install
 
 #### Step 2 - Configure ActionMailer
@@ -34,5 +29,3 @@ PHCContactor form and layout view can be overwritten by copy files to your appli
 	ENV["PHC_CONTACTOR_SENDER"]  
 
 #### Additional Information
-
-- [Critical Security Updates](https://github.com/PHCNetworks/phc-contactor/wiki/Critical-Security-Updates)
