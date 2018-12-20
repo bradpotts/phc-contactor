@@ -35,18 +35,8 @@ module Phccontactor
 		require 'pg'
 		
 		# Security Dependencies
-		require 'devise'
-		require 'simple_token_authentication'
-		
-		# Omniauth Authtication
-		require 'omniauth-facebook'
-		require 'omniauth-github'
-		require 'omniauth-instagram'
-		require 'omniauth-twitter'
-		
-		# Payments & Payment Gateways
-		require 'activemerchant'
-		
+		require 'phcaccounts'
+
 		# Isolate Namespace
 		isolate_namespace Phccontactor
 		
