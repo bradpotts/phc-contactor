@@ -9,7 +9,7 @@ Gem::Specification.new do |phc_gem_spec|
   phc_gem_spec.email       = ["info@phcnetworks.net"]
   phc_gem_spec.homepage    = "https://phcnetworks.net/"
   phc_gem_spec.summary     = "Rails 5.2 Full App Engine"
-  phc_gem_spec.description = "PHCContactor Rails 5.2 contact form engine using ActionMailer"
+  phc_gem_spec.description = "Ruby on Rails 5.2 Activemailer Contact Form Engine"
   phc_gem_spec.license     = "MIT"
   
   #Load Engine Files
