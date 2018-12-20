@@ -62,9 +62,6 @@ Gem::Specification.new do |phc_gem_spec|
   # Security Dependencies
   phc_gem_spec.add_dependency 'phcaccounts', '~> 22.0'
   
-  # Payments & Payment Gateways
-  phc_gem_spec.add_dependency 'activemerchant', '~> 1.89'
-  
   # Development Dependencies
   phc_gem_spec.add_development_dependency 'sqlite3', '~> 1.3'
   phc_gem_spec.add_development_dependency 'byebug', '~> 10.0'
