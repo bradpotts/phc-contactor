@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    phccontactor (42.0.0)
+    phccontactor (43.0.0)
       aws-sdk-s3 (~> 1.33)
       country_select (~> 4.0)
       friendly_id (~> 5.2)
@@ -87,7 +87,7 @@ GEM
     arel (9.0.0)
     aws-eventstream (1.0.2)
     aws-partitions (1.144.0)
-    aws-sdk-core (3.48.1)
+    aws-sdk-core (3.48.2)
       aws-eventstream (~> 1.0, >= 1.0.2)
       aws-partitions (~> 1.0)
       aws-sigv4 (~> 1.1)
