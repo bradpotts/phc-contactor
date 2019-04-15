@@ -63,6 +63,7 @@ module Phccontactor
       Phcmenus::ApplicationController.helper(ApplicationHelper)
       Phcnotifi::ApplicationController.helper(ApplicationHelper)
       Phctitleseo::ApplicationController.helper(ApplicationHelper)
+      Phcaccounts::ApplicationController.helper(ApplicationHelper)
     end
   
   end
