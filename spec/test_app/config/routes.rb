@@ -1,3 +1,9 @@
 Rails.application.routes.draw do
-  mount Phccontactor::Engine => "/phccontactor"
+
+    # Index Route
+    root :to => 'website/pages#index'
+
+    # Engine Routes
+    mount Phccontactor::Engine => "/"
+
 end
