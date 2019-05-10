@@ -14,7 +14,7 @@ module Phccontactor
 
 			if @message.valid?
 				MessageMailer.message_me(@message).deliver_now
-				redirect_to new_message_path, notice: "Thank you for your message."
+				redirect_to contact_us_path, notice: "Thank you for your message."
 			else
 				render :new
 			end

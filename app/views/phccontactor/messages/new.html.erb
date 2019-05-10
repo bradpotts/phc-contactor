@@ -1,33 +1,50 @@
-<div>
+<!-- Contact Container -->
+<div class="section-container">
 
-  <%= form_for @message do |f| %>
+  <!-- Contact Tittle -->
+  <h4 class="section-title m-b-20"><span>CONTACT US</span></h4>
+  <!-- Contact Tittle -->
 
-    <%= render 'phcnotifi/validations', :object => @message %>
-
+  <!-- Contact Form Container -->
+  <div class="row row-space-30 f-s-12 text-inverse">
     <div class="col-md-12">
-      <label><%= f.label :name, "Full Name" %></label>
-      <%= f.text_field :name, class: "form-control" %>
-    </div>
 
-    <div class="col-md-12">
-      <label><%= f.label :email, "Email" %></label>
-      <%= f.email_field :email, class: "form-control" %>
-    </div>
+      <!-- Contact Form -->
+      <%= form_with model: @message, local: true do |form| %>
 
-    <div class="col-md-12">
-      <label><%= f.label :subject, "Subject" %></label>
-      <%= f.text_field :subject, class: "form-control" %>
-    </div>
+        <!-- Render Validation -->
+        <%= render 'phcnotifi/validations', :object => @message %>
+        <!-- Render Validation -->
 
-    <div class="col-md-12">
-      <label><%= f.label :content, "Content" %></label>
-      <%= f.text_area :content, class: "form-control" %>
-    </div>
+        <div class="form-group">
+          <%= form.label :name, "Full Name" %> <span class="text-danger"> *</span>
+          <%= form.text_field :name, class: "form-control" %>
+        </div>
 
-    <div class="col-md-12">
-      <%= f.submit 'Send', class: 'btn btn-primary' %>
-    </div>
+        <div class="form-group">
+          <%= form.label :email, "Email" %>
+          <%= form.email_field :email, class: "form-control" %>
+        </div>
 
-  <% end %>
+        <div class="form-group">
+          <%= form.label :subject, "Subject" %>
+          <%= form.text_field :subject, class: "form-control" %>
+        </div>
+
+        <div class="form-group">
+          <%= form.label :content, "Content" %>
+          <%= form.text_area :content, class: "form-control" %>
+        </div>
+
+        <div class="action">
+          <%= form.submit 'Send', class: 'btn btn-primary' %>
+        </div>
+
+      <% end %>
+      <!-- Contact Form -->
+    </div>
+  </div>
+  <!-- Contact Form Container -->
 
 </div>
+<!-- Contact Container -->
