@@ -12,9 +12,9 @@
       <!-- Contact Form -->
       <%= form_with model: @message, local: true do |form| %>
 
-        <!-- Render Validation -->
-        <%= render 'phcnotifi/validations', :object => @message %>
-        <!-- Render Validation -->
+        <!-- PHCNotifi Render Validation -->
+        <%= render 'phcnotifi/default/validations', :object => @message %>
+        <!-- PHCNotifi Render Validation -->
 
         <div class="form-group">
           <%= form.label :name, "Full Name" %> <span class="text-danger"> *</span>
