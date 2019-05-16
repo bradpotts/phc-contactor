@@ -6,7 +6,7 @@
 	<% phc_seo_title "PHCContactor by PHCDevworks" %>
 	<% phc_seo_description "Ruby on rails activemailer contact form." %>
 	<!-- SEO System -->
-	
+
 	<!-- SEO and Site Description -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title><%= yield(:phc_seo_title) %></title>
@@ -14,17 +14,17 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
 	<link rel="canonical" href="http://phcdevworks.com">
 	<!-- SEO and Site Description -->
-	
+
 	<!-- Rails Security Tags -->
 	<%= csrf_meta_tags %>
 	<%= csp_meta_tag %>
 	<!-- Rails Security Tags -->
-	
+
 	<!-- CSS Styles -->
 	<%= stylesheet_link_tag 'phccontactor/application', media: 'all', 'data-turbolinks-track': 'reload' %>
-	<%= javascript_include_tag "phccontactor/application" %>  
+	<%= javascript_include_tag "phccontactor/application" %>
 	<!-- CSS Styles -->
-	
+
 	<!-- Font -->
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700"/>
 	<!-- Font -->
@@ -43,7 +43,7 @@
 				<%= render 'layouts/phccontactor/components/frontend/navigation/menu_logo' %>
 			</div>
 			<!-- Page Header -->
-	
+
 			<!-- Page Navbar -->
 			<div class="collapse navbar-collapse" id="header-navbar">
 				<%= render 'layouts/phccontactor/components/frontend/navigation/top_navigation_bar' %>
@@ -52,7 +52,7 @@
 
 		</div>
 		<!-- Header Container -->
-		
+
 	</div>
 	<!-- Header -->
 
@@ -70,17 +70,18 @@
 	</div>
 	<!-- Content Container -->
 
-    <!-- Footer Content -->
-    <div id="footer" class="footer mt-4">
-      <%= render 'layouts/phccontactor/components/frontend/footer/footer' %>
-    </div>
-    <!-- Footer Content -->
-
-    <!-- Footer Copyright -->
-	<div id="footer-copyright" class="footer-copyright">
-      <%= render 'layouts/phccontactor/components/frontend/footer/footer_copyright' %>
+	<!-- Footer Content -->
+	<div id="footer" class="footer mt-4">
+		<%= render 'layouts/phccontactor/components/frontend/footer/footer' %>
 	</div>
-    <!-- Footer Copyright -->
+	<!-- Footer Content -->
 
+	<!-- Footer Copyright -->
+	<div id="footer-copyright" class="footer-copyright">
+		<%= render 'layouts/phccontactor/components/frontend/footer/footer_copyright' %>
+	</div>
+	<!-- Footer Copyright -->
+
+</body>
 
 </html>

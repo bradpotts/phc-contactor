@@ -17,23 +17,23 @@
         <!-- PHCNotifi Render Validation -->
 
         <div class="form-group">
-          <%= form.label :name, "Full Name" %> <span class="text-danger"> *</span>
-          <%= form.text_field :name, class: "form-control" %>
+          <%= form.label :message_name, "Full Name" %> <span class="text-danger"> *</span>
+          <%= form.text_field :message_name, class: "form-control" %>
         </div>
 
         <div class="form-group">
-          <%= form.label :email, "Email" %>
-          <%= form.email_field :email, class: "form-control" %>
+          <%= form.label :message_email, "Email" %>
+          <%= form.email_field :message_email, class: "form-control" %>
         </div>
 
         <div class="form-group">
-          <%= form.label :subject, "Subject" %>
-          <%= form.text_field :subject, class: "form-control" %>
+          <%= form.label :message_subject, "Subject" %>
+          <%= form.text_field :message_subject, class: "form-control" %>
         </div>
 
         <div class="form-group">
-          <%= form.label :content, "Content" %>
-          <%= form.text_area :content, class: "form-control" %>
+          <%= form.label :message_content, "Content" %>
+          <%= form.text_area :message_content, class: "form-control" %>
         </div>
 
         <div class="action">
@@ -42,6 +42,7 @@
 
       <% end %>
       <!-- Contact Form -->
+
     </div>
   </div>
   <!-- Contact Form Container -->
