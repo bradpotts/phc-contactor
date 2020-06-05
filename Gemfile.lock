@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    phccontactor (49.3.0)
+    phccontactor (49.4.0)
       aws-sdk-s3 (~> 1.67)
       friendly_id (~> 5.3)
       google-cloud-storage (~> 1.26)
